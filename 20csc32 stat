@@ -1,0 +1,9 @@
+> library(readxl)
+> X20csc32_stat <- read_excel("20csc32 stat.xlsx")
+> View(X20csc32_stat)
+> shalini <- read_excel("20csc32 stat.xlsx")
+> mean(shalini$`Tamil Nadu`)
+[1] 107.4571
+> sd(shalini$Kerala)
+[1] 2.347577
+> 
